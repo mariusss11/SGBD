@@ -17,7 +17,7 @@ One important thing is that the entire car company is **ECO**.
 
 You can view the diagram here:
 
-![Database Diagram](https://www.plantuml.com/plantuml/png/hPHBRzim3CVl-XISBmE61BqNHT4WxR1Y3nHPi6l0sVGiJ0z3KWeOxRxx6FenGnvyQWu9HTBaxszIkOi9GpfRezwbXYn1Qr0xfSWbdJeezkUOlALG04OO3_2YW3yVe1mS9rt1DJn-EyBDpTFdsri9RxVoK-iGqycX9KxviJliF-qE4Z3uVpzPr2RpjOrtULuLz3EtDhea5-V1FpDy7CXn1eshl1P_vvsihoWdwWX3NqEE0yMfDPZonsF2T8x_d01NLu3Fh19_6jf0O5ggDi2wsN3eIkf51rroHTPOOSUFtp_i7x_klaWiTIsD2ZwAWhdi0njeH7blJkA37DVqoq9mHv5n)
+![Database Diagram](https://www.plantuml.com/plantuml/png/hPHBRzim3CVl-XISBmE61BqNHT4WxR1Y3nHPi6l0sVGiJ0z3KWeOxRxx6FenGnvyQWu9HTBaxszIkOi9GpfRezwbXYn1Qr0xfSWbdJeezkUOlALG04OO3_2YW3yVe1mS9rt1DJn-EyBDpTFdsri9RxVoK-iGqycX9KxviJliF-qE4Z3uVpzPr2RpjOrtULuLz3EtDhea5-V1FpDy7CXn1eshl1P_vvsihoWdwWX3NqEE0yMfDPZonsF2T8x_d01NLu3Fh19_6jf0O5ggDi2wsN3eIkf51rroHTPOOSUFtp_i7x_klaWiTIsD2ZwAWhdi0njeH7blJkA37DVqoq9mHv5nlpi-Y9TSjV0bVobL-fWok7mj9aW9ui8_zgthF38NzOITPLjK3VOag-tFgtEbrFXgDWKU0hDK6_wEpGPIG1Th2fASlwObpVSBhh28DP68Z3Uz3y6RzIkIR_oHTqF81djaawLPGPDuJi2bbNhFQsGmQUzYezkefZ-2rzVjrh-CItODHMkmf5WeRhqCwZZiEcXNgDu_PeqJvRG6kO2yrMK9Ymv_PGr6cNq7NukEGjsHgyxM_0K0)
 
 ---
 
@@ -25,8 +25,8 @@ You can view the diagram here:
 
 ### Create Database and Tables
 
-The script for creating the database is [here](lab1/ecoCarRental.sql) 
+The script for creating the database is [here](./ecoCarRental.sql) 
 
 ### Insert Data 
 
-The script for inserting info in the database is [here](lab1/inserting.sql)
+The script for inserting info in the database is [here](inerting.sql)
