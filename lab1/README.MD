@@ -17,7 +17,7 @@ One important thing is that the entire car company is **ECO**.
 
 You can view the diagram here:
 
-![Database Diagram](https://www.plantuml.com/plantuml/png/hPHBRzim3CVl-XISBmE61BqNHT4WxR1Y3nHPi6l0sVGiJ0z3KWeOxRxx6FenGnvyQWu9HTBaxszIkOi9GpfRezwbXYn1Qr0xfSWbdJeezkUOlALG04OO3_2YW3yVe1mS9rt1DJn-EyBDpTFdsri9RxVoK-iGqycX9KxviJliF-qE4Z3uVpzPr2RpjOrtULuLz3EtDhea5-V1FpDy7CXn1eshl1P_vvsihoWdwWX3NqEE0yMfDPZonsF2T8x_d01NLu3Fh19_6jf0O5ggDi2wsN3eIkf51rroHTPOOSUFtp_i7x_klaWiTIsD2ZwAWhdi0njeH7blJkA37DVqoq9mHv5nlpi-Y9TSjV0bVobL-fWok7mj9aW9ui8_zgthF38NzOITPLjK3VOag-tFgtEbrFXgDWKU0hDK6_wEpGPIG1Th2fASlwObpVSBhh28DP68Z3Uz3y6RzIkIR_oHTqF81djaawLPGPDuJi2bbNhFQsGmQUzYezkefZ-2rzVjrh-CItODHMkmf5WeRhqCwZZiEcXNgDu_PeqJvRG6kO2yrMK9Ymv_PGr6cNq7NukEGjsHgyxM_0K0)
+![Database Diagram](//www.plantuml.com/plantuml/png/jLHBRzGm4BxdLvXSA2YhFe0BgggkjaLKF5GjAwwh8Puq5dv4jbCfjFnt9ew9J1tsrZrivZ7vz7tVsBbq7gplbInU-1OLiaw2q4M1sWi_i7BJEsyKsfA1OtyJzb0m-hrcTIpi1MVlsStN7Ji_l_rqSH7QgrLuDC8wlzUWa4Q-hxURZ-ljqPkJLw4fuVyzL21aKdyRwrrhT3f_5klSYdkY8aMDsZq5_9r8WgW64Y5mK8E2dqiCbU4e5-e3WfsmGXePxSbQdyASlfl6dGVVktyLiUDZ1lSW9FoGM35Bv95NZ2oXG8EkSVB2Yfg0IJQ7WH2khZStNzQVZqvFghC9t0yTfj8-aBGdRkne93WIuzcLyEu1Mq8_truA_yr3qmJm4CtGRioUvTXO8tEJ5qzJodDB0SX0T0fdfZQaXwY6AxJdqtAlrhlhK4NDivet8rHjd5_SLNwTuhv24nRhcPFPXczXK1JFMqxoMMGtrGxU0VIjuS7r_AWIELxHlsihvYrerw0TERmaDoLuORHhHUUA-Glo-BXQcOVeDU6LdOGQNLbiOA4fNBm1JEYo22Sf7rAWuIv2175nWjAnNOF7EsF5ht4ayI07wXrorXXR5fUeUQ_a7m0)
 
 ---
 
@@ -25,7 +25,7 @@ You can view the diagram here:
 
 ### Create Database and Tables
 
-The script for creating the database is [here](./ecoCarRental.sql) 
+The script for creating the database is [here](./create_tables.sql) 
 
 ### Insert Data 
 
