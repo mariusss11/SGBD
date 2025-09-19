@@ -30,3 +30,6 @@ The script for creating the database is [here](./create_tables.sql)
 ### Insert Data 
 
 The script for inserting info in the database is [here](inerting.sql)
+
+
+## Next part [here](./../lab2/) 
