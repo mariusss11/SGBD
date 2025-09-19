@@ -10,23 +10,28 @@ FROM sys.database_role_members drm
 ORDER BY dp1.name, dp2.name;
 
 
--- Create roles
+-- CREATE ROLES
 CREATE ROLE admin_role;
 CREATE ROLE staff_role;
 CREATE ROLE client_role;
 
 
 
--- Assign permission to roles
+-- ASSIGN PERMISSIONS TO ROLES
 
--- Assign permission to client_role
+-- To client_role
 GRANT SELECT ON view_staff TO client_role;
 
 
--- Assign permission to client_role
+-- To staff_role
 GRANT SELECT ON Customer TO staff_role;
 
--- Add user to role
+
+
+
+-- ADD MEMBERS (USERS) TO ROLES
+
+-- To staff_role
 ALTER ROLE staff_role ADD MEMBER staff_user;
 
 
