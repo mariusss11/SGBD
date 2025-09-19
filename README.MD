@@ -1,3 +1,5 @@
+# This is a doc file for Linux users for starting / running mssql-server 
+
 
 ## ▶️ To start it manually:
 ```
