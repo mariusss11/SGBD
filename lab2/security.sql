@@ -19,6 +19,9 @@ WHERE pr.name = 'user_client';
 -- Use the server
 USE master;
 
+
+-- CREATE CLIENT USER
+
 -- Create a login
 CREATE LOGIN client
 WITH PASSWORD = 'qwerty!2#'
@@ -32,6 +35,30 @@ FOR LOGIN client;
 
 -- Permit the client to see all the names of the staff 
 GRANT SELECT ON view_staff TO user_client;
+
+
+-- CREATE STAFF USER
+
+USE master;
+
+-- Create a login
+CREATE LOGIN staff_login
+WITH PASSWORD = 'staff123.'
+
+-- Use the instance of the desired database
+USE EcoCarRental;
+
+-- Create a user for that specific database
+CREATE USER staff_user
+FOR LOGIN staff_login;
+
+-- Permit the staff permission to make changes on the car table
+GRANT 
+    SELECT, INSERT, UPDATE, DELETE, ALTER, REFERENCES 
+    ON car TO staff_user;
+
+-- Remove the delete permission for the staff_user
+REVOKE DELETE ON car FROM staff_user;
 
 
 
