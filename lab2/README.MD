@@ -25,3 +25,8 @@ The script for the *select commands* in the database is [here](./select.sql)
 ### View Queries
 
 The script for creating *views* the database is [here](./create_views.sql)
+
+
+### Docs
+
+Basic Practicies for Strong Security [here](https://www.sqlservercentral.com/articles/a-few-best-practices-for-strong-sql-server-security)
