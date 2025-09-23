@@ -36,3 +36,24 @@ systemctl list-unit-files --type=service
 ```
 systemctl list-units --type=service --state=running
 ```
+
+
+### Password for user auth for the SQL Server
+
+The user for the client
+```
+Username: client
+Password: qwerty!2#
+```
+
+The user for the staff
+```
+Username: staff_login
+Password: staff123.
+```
+
+## Command to connect to the db using *sqlcmd*
+```bash
+sqlcmd -S localhost -U "$DB_USER" -P "$DB_PASS" -d "EcoCarRental" -C
+```
+
