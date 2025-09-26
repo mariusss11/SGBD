@@ -28,9 +28,9 @@ The script for creating *views* the database is [here](./create_views.sql)
 
 ### Data Masking Tehnique
 
-Implemented \\\\dynamic data masking [here](./dataMasking.sql)
+Implemented dynamic data masking [here](./dataMasking.sql)
 
 ### Docs
 
-Basic Practicies for Strong Security [here](htps://www.sqlservercentral.com/articles/a-few-best-practices-for-strong-sql-server-security)
-Dynamic Data Masking [here](https://learn.microsoft.com/en-us/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver17)
+* Basic Practicies for Strong Security [here](https://www.sqlservercentral.com/articles/a-few-best-practices-for-strong-sql-server-security)
+* Dynamic Data Masking [here](https://learn.microsoft.com/en-us/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver17)

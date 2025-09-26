@@ -12,10 +12,13 @@
 
 USE EcoCarRental;
 
-
 CREATE INDEX idx_customer_names ON Customer (first_name, last_name);
-
 -- This is an index created on table Customer, columns first_name and last_name
 -- They are requested a lot of types so a litlle bit of speed will be just good
+
+CREATE INDEX idx_car_details ON Car (make, model, year, price_per_day);
+-- This is an index create on table Car, for the columns that are usually retrived
+
+
 
 
