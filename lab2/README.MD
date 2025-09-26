@@ -1,7 +1,7 @@
 # Lab 2 – EcoCarRental Database Security Configuration
 
 ## Overview
-This phase of the project involve the security configuration of the entire database
+This phase of the project involve creating some script to retrive info but also improve the overall security 
 ---
 
 ## Database Diagram
