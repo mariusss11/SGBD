@@ -37,6 +37,18 @@ Script for working with indexes [here](./dataMasking.sql)
 - Choosing the right columns for indexing is critical to balance performance.
 
 
+### Encryption
+
+Script for working with indexes [here](./encryption.sql)
+
+#### 🔐 Encryption Configuration (Transparent Data Encryption)
+
+In this lab, we enabled **Transparent Data Encryption (TDE)** to protect the `EcoCarRental` database at rest.  
+TDE ensures that the database files (MDF, LDF, backups) are encrypted on disk, preventing unauthorized access if someone copies the files.
+
+
+
 ### Docs
 
-For more details, see the [Microsoft Docs on Indexes](https://learn.microsoft.com/en-us/sql/relational-databases/indexes/create-nonclustered-indexes?view=sql-server-ver15).
+For more details about indexes, see the [Microsoft Docs on Indexes](https://learn.microsoft.com/en-us/sql/relational-databases/indexes/create-nonclustered-indexes?view=sql-server-ver15).
+More info about TDE, see the [Microsoft Docs](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver17) 
