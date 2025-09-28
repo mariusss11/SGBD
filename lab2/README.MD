@@ -59,5 +59,7 @@ Implemented dynamic data masking [here](./dataMasking.sql)
 
 ## Navigation
 
-[⬅️ Previous Lab – Lab 1](../lab1/README.MD)  
-[Next Lab – Lab 3 ➡️](../lab3/README.MD)
+| ⬅️ Previous Lab | Next Lab ➡️ |
+|-----------------|------------|
+| [Lab 1 – Database Design](../lab1/README.MD) | [Lab 3 – Advanced Security](../lab3/README.MD) |
+
