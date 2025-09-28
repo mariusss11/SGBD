@@ -13,7 +13,7 @@ You can view the diagram [here](/lab1/README.MD)
 
 ### Indexes
 
-Script for working with indexes [here](./dataMasking.sql)
+Script for working with indexes [here](./index.sql)
 
 #### 📌 Clustered Index
 - A clustered index determines the physical order of data in the table.  
@@ -39,7 +39,7 @@ Script for working with indexes [here](./dataMasking.sql)
 
 ### Encryption
 
-Script for working with indexes [here](./encryption.sql)
+Script for encrypting data at rest [here](./encryption.sql)
 
 #### 🔐 Encryption Configuration (Transparent Data Encryption)
 
