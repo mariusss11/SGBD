@@ -6,17 +6,34 @@ This phase of the project involve creating some script to retrive info but also 
 
 ## Database Diagram
 
-You can view the diagram here:
-
-![Database Diagram](https://www.plantuml.com/plantuml/png/jLHBRnCn4Bxlhp1xeQ14VG0NL5MDqY8g7gf2n3KQrfEkXHyhUr8KMluxirwpClMI6paaynXz-hvlnhaC19vsHbVFg4M3ejEWR5MX9KLxKIztWPn1Nmi8uayY7Yh1dvUYIOMDakAjkFcy5kVdjnykBc9xFey_M-K3RImOv96lYzNo_M9rzEhaHMng-7SF3IYTrL-dUjSwcy-VfRhqwfwfQDMW3Ky1VsMI8Ac1J0WSr63W-nH3uoJgYVeUmGzOCKsCDcmjvJ2dRuRnG42xyBSYSNmiu1wKXcyQPy8pUPGp9g8ui60R7Bpmgc5WbYrXpmXNrykRJukFHwSdixC1dFOTvjBUiRGdRgnv93gIuj4LukIGBR5VRY-7_qAmtKRm68tGeS_-ozbufmkJfwyfvxdY07GaEeGZKn_JGrJZ4zh8ORbNY_LrhAALHOrS3zMuG9ExAfzJsbTimdHzTBBeTB0tJFxGzc-7aV42idmqe8GftmTIwsJSI7d6J5pE-3kqCq4URDYYxpayPwSra78sjAeBrVZlylWudxk7j0V6gpiD3OQwMi94KuNqEeIoTHMlh1moOE4kGKHnQOBJljq0uPtpwcS_adjG0Eq2Il53KLjNbsZbpkZV)
-
+You can view the diagram [here](/lab1/README.MD)
 ---
+
+
 
 ## SQL Scripts
 
 ### Security Config
 
 The script for adding login and user in the database is [here](./security.sql) 
+
+### Security Diagram 
+
+The **Security Diagram** illustrates the roles, users, and their permissions in the **EcoCarRental** database.  
+It helps visualize which users can access which database objects and the hierarchy of roles.
+
+**Diagram Overview:**
+- **Client Role (`client_role`)**  
+  - Can **view staff**, **view cars**, and **view car types**.  
+- **Staff Role (`staff_role`)**  
+  - Can **manage cars** (add, edit, delete), **manage car types**, **manage rentals**, and **view customers**.  
+- **Administrator**  
+  - Can **manage users and roles**.  
+
+**Diagram Link (PlantUML Rendered Image):**  
+![EcoCarRental Security Diagram](https://www.plantuml.com/plantuml/png/TLBDSjCm4BxhANRA8N3e32sbS69QF0aNJWbmNwoDgwaiULPIEp73gIy1mplm4lIGnqAErTXMqajYxVVjjp_xNJcFx4EjXQQr1s-1LNNZGIgcqYjhXBjLfa766h3qbbT-emdmdfojQGHsT3HLn7u8W8-M9N5XjMLuSJv_VrcSnUZ26hzIBS7PHNhrQj-jbkBdI2muAj4bAInlAxR1o2Itk5XSBjuT52dUpD--dXGvZvfYrpGKMf7nwR7ok5wdxsjPAwESPuml8OOfJkQbBP2NCGqrh3REKtqI6ueLPb1W6rY190XUQTKYKoeHuPVVL1imHWdRnmUeSVixbdW5wE1EqNqKTOSihvgaU8J_PTFGaPo6s5c3Ua_j1uky9RN4T_lYZmyx2fFnKUtv4VRvdyXrjpySe4Q35JsDS2qnL7aLb3BY7JoNoaU9d10QYPuIP_lB4rSqPKZIb1XPB_cQigxIehAaVtzDUQDO4O_f_MMFhBNi3hdzCxf0SDxMnExPpMKsoXj8l0WfY5q3MnqclNnrKNrfDRdEiZFuJ76jFdAUNDN_mUdfXy53UIoDdyMJAQQgVMpts_76Pys3IJO7XlqDyMnNC-YXweYPe65bG9bI1qbYAD_f90TbqS4s6J2uPJ9ZVn8nEKn7Fzouk28ZGwt5Vm00)
+
+> **Tip:** You can open the PlantUML source to modify or expand the diagram as your database schema evolves.
 
 ### Select Queries
 
