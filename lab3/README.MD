@@ -52,3 +52,9 @@ TDE ensures that the database files (MDF, LDF, backups) are encrypted on disk, p
 
 For more details about indexes, see the [Microsoft Docs on Indexes](https://learn.microsoft.com/en-us/sql/relational-databases/indexes/create-nonclustered-indexes?view=sql-server-ver15).
 More info about TDE, see the [Microsoft Docs](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver17) 
+
+---
+
+| ⬅️ Previous Lab | Next Lab ➡️ |
+|-----------------|------------|
+| [Lab 2 – Retriving info from database](../lab2/README.MD) | [Lab 4 – to continue...]() |

@@ -32,4 +32,8 @@ The script for creating the database is [here](./create_tables.sql)
 The script for inserting info in the database is [here](inerting.sql)
 
 
-## Next part [here](./../lab2/) 
+---
+
+| Next Lab ➡️ |
+|-----------------|
+| [Lab 2 – Retriving info from database](../lab2/README.MD) |

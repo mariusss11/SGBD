@@ -57,8 +57,6 @@ Implemented dynamic data masking [here](./dataMasking.sql)
 
 ---
 
-## Navigation
-
 | ⬅️ Previous Lab | Next Lab ➡️ |
 |-----------------|------------|
 | [Lab 1 – Database Design](../lab1/README.MD) | [Lab 3 – Advanced Security](../lab3/README.MD) |
