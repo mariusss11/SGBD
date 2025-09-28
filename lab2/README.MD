@@ -54,3 +54,10 @@ Implemented dynamic data masking [here](./dataMasking.sql)
 
 * Basic Practicies for Strong Security [here](https://www.sqlservercentral.com/articles/a-few-best-practices-for-strong-sql-server-security)
 * Dynamic Data Masking [here](https://learn.microsoft.com/en-us/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver17)
+
+---
+
+## Navigation
+
+[⬅️ Previous Lab – Lab 1](../lab1/README.MD)  
+[Next Lab – Lab 3 ➡️](../lab3/README.MD)
