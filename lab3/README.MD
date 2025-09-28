@@ -39,4 +39,4 @@ Script for working with indexes [here](./dataMasking.sql)
 
 ### Docs
 
-Basic info about [INDEX](https://learn.microsoft.com/en-us/sql/relational-databases/indexes/create-nonclustered-indexes?view=sql-server-ver15)
+For more details, see the [Microsoft Docs on Indexes](https://learn.microsoft.com/en-us/sql/relational-databases/indexes/create-nonclustered-indexes?view=sql-server-ver15).
