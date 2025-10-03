@@ -57,4 +57,4 @@ More info about TDE, see the [Microsoft Docs](https://learn.microsoft.com/en-us/
 
 | ⬅️ Previous Lab | Next Lab ➡️ |
 |-----------------|------------|
-| [Lab 2 – Retriving info from database](../lab2/README.MD) | [Lab 4 – to continue...]() |
+| [Lab 2 – Retriving info from database](../lab2/README.MD) | [Lab 4 – Schemas in T-SQL](../lab4/README.MD) |
