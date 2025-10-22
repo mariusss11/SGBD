@@ -10,6 +10,10 @@ AS
         last_name
     FROM customer;
 
+SELECT *
+FROM view_customer
+WHERE first_name LIKE 'A%'
+
 CREATE VIEW view_staff
 AS
     SELECT
@@ -19,3 +23,5 @@ AS
 
 SELECT *
 FROM view_staff;
+
+
