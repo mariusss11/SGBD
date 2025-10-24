@@ -38,6 +38,14 @@ USE Inchirieri;
 CREATE USER testUser FOR LOGIN testLogin;  
 GO
 
+Use EcoCarRental;
+
+-- Select to get the column name of a table and the data type
+SELECT
+    COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = N'Staff' -- 'table_name'
+
 
 
 

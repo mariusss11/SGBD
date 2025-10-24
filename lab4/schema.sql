@@ -1,4 +1,4 @@
-USE master;
+USE EcoCarRental;
 
 -- Create a new schema
 CREATE SCHEMA car_schema;

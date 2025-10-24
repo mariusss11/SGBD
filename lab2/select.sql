@@ -5,7 +5,7 @@ SELECT
     CONCAT(c.first_name, ' ', c.last_name) as Customer_Name,
     CONCAT(s.first_name, ' ', s.last_name) as Staff_Name,
     CONCAT(car.make, ' ', car.model, ' ', car.year) as Car,
-    t.type_name as CarType,
+    -- t.type_name as CarType,
     r.total_cost as TotalPrice
 FROM Customer c
     JOIN Rental r ON c.customer_id = r.customer_id
