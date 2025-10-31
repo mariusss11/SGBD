@@ -136,7 +136,7 @@ IF OBJECT_ID('AngSimple_vw','V') IS NOT NULL
 	DROP VIEW AngSimple_vw;
 
 
--- MOVING A OBJECT FROM A SCHEMA TO ANOTHER SCHEMA 
+-- ---------- MOVING A OBJECT FROM A SCHEMA TO ANOTHER SCHEMA ----------
 
 -- The format of the command is: 
 -- ALTER SCHEMA <newschema> TRANSFER <object>
