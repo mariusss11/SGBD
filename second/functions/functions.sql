@@ -19,7 +19,7 @@ GO
 SELECT dbo.most_expensive_car_from_a_brand('Toyota') price;
 
 
--- TABELAR FUNCTION (RETURN A TABLE)
+-- TABELAR FUNCTION (RETURNS A TABLE)
 CREATE FUNCTION car_brand_maximum_price()  
 RETURNS TABLE  
 AS  
@@ -29,7 +29,6 @@ RETURN
     dbo.most_expensive_car_from_a_brand(c.make) AS price
 FROM Car c
 GROUP BY c.make
-
 
 SELECT *
 FROM car_brand_maximum_price()
@@ -43,8 +42,7 @@ RETURNS @Result TABLE (
 )
 AS
 BEGIN
-    INSERT INTO @Result
-        (Car, number_of_borrows, Description)
+    INSERT INTO @Result (Car, number_of_borrows, Description)
     SELECT
         CONCAT(c.make, ' ', c.model, ' ', c.year) AS Car,
         COUNT(r.rental_id) AS number_of_borrows,
@@ -56,10 +54,7 @@ BEGIN
     FROM car c
         LEFT JOIN Rental r ON r.car_id = c.car_id
     GROUP BY c.make, c.model, c.year;
-
     RETURN;
 END;
 
-
-SELECT *
-FROM car_description()
+SELECT * FROM car_description()

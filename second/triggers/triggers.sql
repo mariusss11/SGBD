@@ -33,22 +33,12 @@ BEGIN
         SELECT
             'Car' AS table_name,
             CASE 
-            WHEN EXISTS(SELECT *
-                FROM inserted) AND EXISTS(SELECT *
-                FROM deleted) THEN 'UPDATE'
-            WHEN EXISTS(SELECT *
-                FROM inserted) AND NOT EXISTS(SELECT *
-                FROM deleted) THEN 'INSERT'
-            WHEN NOT EXISTS(SELECT *
-                FROM inserted) AND EXISTS(SELECT *
-                FROM deleted) THEN 'DELETE'
+            WHEN EXISTS(SELECT * FROM inserted) AND EXISTS(SELECT * FROM deleted) THEN 'UPDATE'
+            WHEN EXISTS(SELECT * FROM inserted) AND NOT EXISTS(SELECT * FROM deleted) THEN 'INSERT'
+            WHEN NOT EXISTS(SELECT * FROM inserted) AND EXISTS(SELECT * FROM deleted) THEN 'DELETE'
         END AS operation,
-            (SELECT *
-            FROM deleted
-            FOR JSON AUTO) AS old_data,
-            (SELECT *
-            FROM inserted
-            FOR JSON AUTO) AS new_data;
+            (SELECT * FROM deleted FOR JSON AUTO) AS old_data,
+            (SELECT * FROM inserted FOR JSON AUTO) AS new_data;
     END
 END
 
